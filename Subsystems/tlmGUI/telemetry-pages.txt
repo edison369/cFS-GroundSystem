@@ -13,6 +13,7 @@
 Event Messages,            EventMessage.py,         0x808,   null
 ES HK Tlm,                 GenericTelemetry.py,     0x800,   cfe-es-hk-tlm.txt
 EVS HK Tlm,                GenericTelemetry.py,     0x801,   cfe-evs-hk-tlm.txt
+Blinky App Tlm,            GenericTelemetry.py,     0x8B3,   cfs-blinky-hk-tlm.txt
 SB HK Tlm,                 GenericTelemetry.py,     0x803,   cfe-sb-hk-tlm.txt
 TBL HK Tlm,                GenericTelemetry.py,     0x804,   cfe-tbl-hk-tlm.txt
 TIME HK Tlm,               GenericTelemetry.py,     0x805,   cfe-time-hk-tlm.txt
