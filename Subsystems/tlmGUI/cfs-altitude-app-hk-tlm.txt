@@ -15,8 +15,8 @@
 #  Note(1): A line that begins with # is a comment
 #  Note(2): Remove any blank lines from the end of the file
 #
-Error Counter,   	 12,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
-Command Counter, 	 13,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
+Command Counter, 	 12,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
+Error Counter,   	 13,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
 Accelerometer X (m/s^2), 16,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
 Accelerometer Y (m/s^2), 20,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
 Accelerometer Z (m/s^2), 24,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
