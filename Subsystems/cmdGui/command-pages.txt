@@ -1,23 +1,23 @@
-# 
+#
 # Command pages definition
-#  This file defines the list of command pages available to the "CommandSystem.py" 
+#  This file defines the list of command pages available to the "CommandSystem.py"
 #  python program.
-# 
+#
 #  The following comma delimited fields must be present:
-#  Description, 
-#  Command definition file, 
-#  Command Packet ID, 
+#  Description,
+#  Command definition file,
+#  Command Packet ID,
 #  Target Endian (LE/BE),
-#  Command Python Class, 
-#  Target system address, 
-#  Target system port       
-#  
-#  The default Command Python Class is UdpCommands.py, which uses the 
+#  Command Python Class,
+#  Target system address,
+#  Target system port
+#
+#  The default Command Python Class is UdpCommands.py, which uses the
 #   cmdUtil program to format and send a CCSDS command packet over the
-#   UDP port specified. 
+#   UDP port specified.
 #  A different class could be created for other interfaces such as Xbee radio,
-#    TCP, etc. 
-#   
+#    TCP, etc.
+#
 #  Note(1): Lines starting with a # will be skipped
 #  Note(2): Please do not leave a blank line at the end of the file!
 #
@@ -30,7 +30,8 @@ Command Ingest,             CI_LAB_CMD,         0x1884, LE, UdpCommands.py,  192
 Telemetry Output,           TO_LAB_CMD,         0x1880, LE, UdpCommands.py,  192.168.0.100,   1234
 Sample App,                 SAMPLE_APP_CMD,     0x1882, LE, UdpCommands.py,  192.168.0.100,   1234
 Blinky App,                 BLINKY_CMD,         0x18B1, LE, UdpCommands.py,  192.168.0.100,   1234
-Altitude Control App,       ALTITUDE_APP_CMD,   0x18E0, LE, UdpCommands.py,  192.168.0.100,   1234
+Inertial Measurement App,   IMU_APP_CMD,        0x18E0, LE, UdpCommands.py,  192.168.0.100,   1234
+Temperature Measurement App,TEMP_APP_CMD,       0x18E2, LE, UdpCommands.py,  192.168.0.100,   1234
 RF Telemetry Output,        RF_TLM_CMD,         0x18D7, LE, UdpCommands.py,  192.168.0.100,   1234
 LEGACY DEFINITIONS,                       ,     0x0000, LE, UdpCommands.py,  192.168.0.100,   1234
 Executive Services (CPU1),  cfe__es__msg_8h,    0x1806, LE, UdpCommands.py,  192.168.0.100,   1234

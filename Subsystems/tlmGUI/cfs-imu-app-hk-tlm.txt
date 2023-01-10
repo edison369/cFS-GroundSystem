@@ -1,5 +1,5 @@
 #
-# cfs-altitude-app-hk-tlm.txt
+# cfs-imu-app-hk-tlm.txt
 #
 # This file should have the following comma delimited fields:
 #   1. Data item description
@@ -23,3 +23,6 @@ Accelerometer Z (m/s^2), 24,  4,  f,   Dec, NULL,        NULL,      NULL,       
 Gyroscope X (°/s),     	 28,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
 Gyroscope Y (°/s),     	 32,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
 Gyroscope Z (°/s),     	 36,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
+Angle X (°),     	       40,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
+Angle Y (°),     	       44,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
+Angle Z (°),     	       48,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL

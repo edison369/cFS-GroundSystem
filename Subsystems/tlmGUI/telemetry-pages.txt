@@ -1,12 +1,12 @@
-# 
+#
 # telemetry-pages.txt
-# 
+#
 # This file should have the following comma delimited fields:
 #   1. Description
 #   2. Python class to handle the telemetry packets
 #   3. Packet ID in hex
-#   4. Telemetry definition file, or null 
-# 
+#   4. Telemetry definition file, or null
+#
 #  Note(1): A line that begins with # is a comment
 #  Note(2): Remove any blank lines from the end of the file
 #
@@ -14,7 +14,8 @@ Event Messages,            EventMessage.py,         0x808,   null
 ES HK Tlm,                 GenericTelemetry.py,     0x800,   cfe-es-hk-tlm.txt
 EVS HK Tlm,                GenericTelemetry.py,     0x801,   cfe-evs-hk-tlm.txt
 Blinky App Tlm,            GenericTelemetry.py,     0x8B3,   cfs-blinky-hk-tlm.txt
-Altitude App Tlm,          GenericTelemetry.py,     0x8E0,   cfs-altitude-app-hk-tlm.txt
+IMU App Tlm,               GenericTelemetry.py,     0x8E0,   cfs-imu-app-hk-tlm.txt
+Temperature App Tlm,       GenericTelemetry.py,     0x8E1,   cfs-temperature-app-hk-tlm.txt
 RF Telemetry Tlm,          GenericTelemetry.py,     0x8D9,   cfs-rf-tlm-hk-tlm.txt
 SB HK Tlm,                 GenericTelemetry.py,     0x803,   cfe-sb-hk-tlm.txt
 TBL HK Tlm,                GenericTelemetry.py,     0x804,   cfe-tbl-hk-tlm.txt
