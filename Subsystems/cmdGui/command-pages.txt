@@ -32,6 +32,7 @@ Sample App,                 SAMPLE_APP_CMD,     0x1882, LE, UdpCommands.py,  192
 Blinky App,                 BLINKY_CMD,         0x18B1, LE, UdpCommands.py,  192.168.0.100,   1234
 Inertial Measurement App,   IMU_APP_CMD,        0x18E0, LE, UdpCommands.py,  192.168.0.100,   1234
 Temperature Measurement App,TEMP_APP_CMD,       0x18E2, LE, UdpCommands.py,  192.168.0.100,   1234
+Altitude Measurement App,   ALTITUDE_APP_CMD,   0x18E4, LE, UdpCommands.py,  192.168.0.100,   1234
 RF Telemetry Output,        RF_TLM_CMD,         0x18D7, LE, UdpCommands.py,  192.168.0.100,   1234
 LEGACY DEFINITIONS,                       ,     0x0000, LE, UdpCommands.py,  192.168.0.100,   1234
 Executive Services (CPU1),  cfe__es__msg_8h,    0x1806, LE, UdpCommands.py,  192.168.0.100,   1234

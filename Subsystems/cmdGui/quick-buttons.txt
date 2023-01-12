@@ -24,6 +24,7 @@ Telemetry Output LAB,       to_lab_msg,         Enable Tlm,    6, 0x1880, LE, 19
 Executive Services (CPU1),  cfe__es__msg_8h,    ES No-Op,      0, 0x1806, LE, 192.168.0.100, 1234, struct_c_f_e___e_s___no_args_cmd__t
 Time Services (CPU1),       cfe__time__msg_8h,  Time No-Op,    0, 0x1805, LE, 192.168.0.100, 1234, struct_c_f_e___t_i_m_e___no_args_cmd__t
 Telemetry Output,           TO_LAB_CMD,         Enable Tlm,    6, 0x1880, LE, 192.168.0.100, 1234, TO_LAB_OUTPUT_ENABLE_CC
+Inertial Measurement App,   IMU_APP_CMD,        Calc offset,   4, 0x18E0, LE, 192.168.0.100, 1234, IMU_APP_CALCULATE_OFFSET_CC
 RF Telemetry Output,        RF_TLM_CMD,         Enable RF Tlm, 2, 0x18D7, LE, 192.168.0.100, 1234, RF_TLM_OUTPUT_ENABLE_CC
 Executive Services,         CFE_ES_CMD,         ES No-Op,      0, 0x1806, LE, 192.168.0.100, 1234, CFE_ES_NOOP_CC
 Software Bus,               CFE_SB_CMD,         SB No-Op,      0, 0x1803, LE, 192.168.0.100, 1234, CFE_SB_NOOP_CC

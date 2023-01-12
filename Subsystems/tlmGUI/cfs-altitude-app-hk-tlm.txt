@@ -1,5 +1,5 @@
 #
-# cfs-temperature-app-hk-tlm.txt
+# cfs-altitude-app-hk-tlm.txt
 #
 # This file should have the following comma delimited fields:
 #   1. Data item description
@@ -17,8 +17,6 @@
 #
 Command Counter, 	      12,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
 Error Counter,   	      13,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
-Temperature (+-0.3°C),  16,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
-Humidity (%),           20,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
-Temp MPU6050 (+-1°C),   24,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
-Temp MPL3115A2 (+-1°C), 28,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
-Time Counter, 	        32,  4,  i,   Dec, NULL,        NULL,      NULL,       NULL
+Altitude (m),           16,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
+Sea Pressure (hPa),     20,  4,  f,   Dec, NULL,        NULL,      NULL,       NULL
+Altitude Offset (m),    24,  1,  b,   Dec, NULL,        NULL,      NULL,       NULL
