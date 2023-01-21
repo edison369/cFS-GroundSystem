@@ -17,7 +17,5 @@
 #
 Command Counter, 	 12,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
 Error Counter,   	 13,  1,  B,   Dec, NULL,        NULL,      NULL,       NULL
-App Reporting ID 1, 	 16,  2,  H,   Hex, NULL,        NULL,      NULL,       NULL
-App Reporting ID 2, 	 18,  2,  H,   Hex, NULL,        NULL,      NULL,       NULL
-App Reporting ID 3, 	 20,  2,  H,   Hex, NULL,        NULL,      NULL,       NULL
-App Reporting ID 4, 	 22,  2,  H,   Hex, NULL,        NULL,      NULL,       NULL
+Packets Counter, 	 16,  4,  i,   Dec, NULL,        NULL,      NULL,       NULL
+Packet Error Counter,    20,  4,  i,   Dec, NULL,        NULL,      NULL,       NULL
