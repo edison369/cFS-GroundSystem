@@ -17,6 +17,7 @@ Blinky App Tlm,            GenericTelemetry.py,     0x8B1,   cfs-blinky-hk-tlm.t
 IMU App Tlm,               GenericTelemetry.py,     0x8E1,   cfs-imu-app-hk-tlm.txt
 Temperature App Tlm,       GenericTelemetry.py,     0x8D1,   cfs-temperature-app-hk-tlm.txt
 Altitude App Tlm,          GenericTelemetry.py,     0x8A1,   cfs-altitude-app-hk-tlm.txt
+GPS App Tlm,               GenericTelemetry.py,     0x8C1,   cfs-gps-app-hk-tlm.txt
 RF Telemetry Tlm,          GenericTelemetry.py,     0x8F1,   cfs-rf-tlm-hk-tlm.txt
 SB HK Tlm,                 GenericTelemetry.py,     0x803,   cfe-sb-hk-tlm.txt
 TBL HK Tlm,                GenericTelemetry.py,     0x804,   cfe-tbl-hk-tlm.txt
